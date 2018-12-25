@@ -3,16 +3,7 @@ JMEL Becha
 CodinGame
 25/12/2018
 */
-
 using System;
-using System.Linq;
-using System.IO;
-using System.Text;
-using System.Collections;
-using System.Collections.Generic;
-
-class Solution
-{using System;
 using System.Linq;
 using System.IO;
 using System.Text;
@@ -32,7 +23,6 @@ class Solution
         public List<Node> Nodes{get;}
     }
     static int Length=0;
-    Dictionary<int,Node> AllNodes;
     static void Main(string[] args)
     {
         int n = int.Parse(Console.ReadLine()); // the number of adjacency relations
