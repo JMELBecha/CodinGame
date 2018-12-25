@@ -91,12 +91,7 @@ class Solution
                 P2.Enqueue(Player2.Dequeue());
             }
         }
-        //Console.Error.WriteLine((int)Carte.C_2 + " " + (int)Carte.C_5); 
         
-        // Write an action using Console.WriteLine()
-        // To debug: Console.Error.WriteLine("Debug messages...");
-
-        //Console.WriteLine("PAT");
     }
     
     public static Carte Parse(string s)
